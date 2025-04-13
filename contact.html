@@ -8,20 +8,32 @@
         <meta content="Commodities Trading Site" name="description" />
 
         <!-- Favicon -->
-        <link href="img/favicon.ico" rel="icon">
+        <link href="img/favicon.ico" rel="icon" />
 
         <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        
+        <link
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
         <!-- CSS Libraries -->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet" />
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
 
         <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet" />
     </head>
 
     <body>
@@ -86,7 +98,7 @@
                         <a href="event.html" class="nav-item nav-link"
                             >Products</a
                         >
-                        
+
                         <a href="contact.html" class="nav-item nav-link"
                             >Contact</a
                         >
@@ -95,8 +107,7 @@
             </div>
         </div>
         <!-- Nav Bar End -->
-        
-        
+
         <!-- Page Header Start -->
         <div class="page-header">
             <div class="container">
@@ -112,8 +123,7 @@
             </div>
         </div>
         <!-- Page Header End -->
-        
-        
+
         <!-- Contact Start -->
         <div class="contact">
             <div class="container">
@@ -122,36 +132,90 @@
                     <h2>Contact for any query</h2>
                 </div>
                 <div class="contact-img">
-                    <img src="img/contact.jpg" alt="Image">
+                    <img src="img/contact.jpg" alt="Image" />
                 </div>
                 <div class="contact-form">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div>
-                                <button class="btn btn-custom" type="submit" id="sendMessageButton">Send Message</button>
-                            </div>
-                        </form>
-                    </div>
+                    <div id="success"></div>
+                    <form
+                        name="sentMessage"
+                        id="contactForm"
+                        novalidate="novalidate"
+                        
+                    >
+                        <!-- <input
+                            type="hidden"
+                            name="access_key"
+                            value="4132a68f-874f-42e1-b1a9-e9f1062d9a96"
+                        /> -->
+                        <div class="control-group">
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="name"
+                                placeholder="Your Name"
+                                required="required"
+                                data-validation-required-message="Please enter your name"
+                            />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input
+                                type="email"
+                                class="form-control"
+                                id="email"
+                                placeholder="Your Email"
+                                required="required"
+                                data-validation-required-message="Please enter your email"
+                            />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <input
+                                type="text"
+                                class="form-control"
+                                id="subject"
+                                placeholder="Subject"
+                                required="required"
+                                data-validation-required-message="Please enter a subject"
+                            />
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="control-group">
+                            <textarea
+                                class="form-control"
+                                id="message"
+                                placeholder="Message"
+                                required="required"
+                                data-validation-required-message="Please enter your message"
+                            ></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div>
+                            <button
+                                class="btn btn-custom"
+                                type="submit"
+                                id="sendMessageButton"
+                            >
+                                Send Message
+                            </button>
+                        </div>
+                        <!-- <input
+                            type="hidden"
+                            name="redirect"
+                            value="https://web3forms.com/success"
+                        /> -->
+                        <!-- Honeypot Spam Protection -->
+                        <!-- <input
+                            type="checkbox"
+                            name="botcheck"
+                            class="hidden"
+                            style="display: none"
+                        /> -->
+                    </form>
+                </div>
             </div>
         </div>
         <!-- Contact End -->
-
 
         <!-- Footer Start -->
         <div class="footer">
@@ -239,9 +303,8 @@
                     <div class="col-md-6">
                         <p>
                             &copy;
-                            <a href="index.html"
-                                >Armour Enterprises Ltd</a
-                            >, All Right Reserved.
+                            <a href="index.html">Armour Enterprises Ltd</a>, All
+                            Right Reserved.
                         </p>
                     </div>
                     <div class="col-md-6">
@@ -257,7 +320,7 @@
 
         <!-- Back to top button -->
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
+
         <!-- Pre Loader -->
         <div id="loader" class="show">
             <div class="loader"></div>
@@ -271,7 +334,7 @@
         <script src="lib/waypoints/waypoints.min.js"></script>
         <script src="lib/counterup/counterup.min.js"></script>
         <script src="lib/parallax/parallax.min.js"></script>
-        
+
         <!-- Contact Javascript File -->
         <script src="mail/jqBootstrapValidation.min.js"></script>
         <script src="mail/contact.js"></script>
