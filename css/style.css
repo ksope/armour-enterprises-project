@@ -532,6 +532,9 @@ a:focus {
         font-size: 14px;
         letter-spacing: 0;
     }
+    .carousel .owl-nav {
+        display: none;
+    }
 }
 
 /*******************************/
