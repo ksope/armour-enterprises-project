@@ -56,12 +56,18 @@
                     <div class="col-md-4">
                         <div class="top-bar-right">
                             <div class="social">
-                                <a href="https://x.com"><i class="fab fa-twitter"></i></a>
-                                <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://x.com"
+                                    ><i class="fab fa-twitter"></i
+                                ></a>
+                                <a href="https://facebook.com"
+                                    ><i class="fab fa-facebook-f"></i
+                                ></a>
                                 <a href="https://linkedin.com"
                                     ><i class="fab fa-linkedin-in"></i
                                 ></a>
-                                <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                                <a href="https://instagram.com"
+                                    ><i class="fab fa-instagram"></i
+                                ></a>
                             </div>
                         </div>
                     </div>
@@ -73,9 +79,7 @@
         <!-- Nav Bar Start -->
         <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
-                <a href="index.html" class="navbar-brand"
-                    >Armour Enterprises</a
-                >
+                <a href="index.html" class="navbar-brand">Armour Enterprises</a>
                 <button
                     type="button"
                     class="navbar-toggler"
@@ -137,21 +141,23 @@
                 <div class="contact-form">
                     <div id="success"></div>
                     <form
+                        action="https://api.web3forms.com/submit"
+                        method="POST"
                         name="sentMessage"
                         id="contactForm"
                         novalidate="novalidate"
-                        
                     >
-                        <!-- <input
+                        <input
                             type="hidden"
                             name="access_key"
                             value="4132a68f-874f-42e1-b1a9-e9f1062d9a96"
-                        /> -->
+                        />
                         <div class="control-group">
                             <input
                                 type="text"
                                 class="form-control"
                                 id="name"
+                                name="name"
                                 placeholder="Your Name"
                                 required="required"
                                 data-validation-required-message="Please enter your name"
@@ -163,6 +169,7 @@
                                 type="email"
                                 class="form-control"
                                 id="email"
+                                name="email"
                                 placeholder="Your Email"
                                 required="required"
                                 data-validation-required-message="Please enter your email"
@@ -174,6 +181,7 @@
                                 type="text"
                                 class="form-control"
                                 id="subject"
+                                name="subject"
                                 placeholder="Subject"
                                 required="required"
                                 data-validation-required-message="Please enter a subject"
@@ -184,12 +192,20 @@
                             <textarea
                                 class="form-control"
                                 id="message"
+                                name="message"
                                 placeholder="Message"
                                 required="required"
                                 data-validation-required-message="Please enter your message"
                             ></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
+                        <!-- Honeypot Spam Protection -->
+                        <input
+                            type="checkbox"
+                            name="botcheck"
+                            class="hidden"
+                            style="display: none"
+                        />
                         <div>
                             <button
                                 class="btn btn-custom"
@@ -199,18 +215,6 @@
                                 Send Message
                             </button>
                         </div>
-                        <!-- <input
-                            type="hidden"
-                            name="redirect"
-                            value="https://web3forms.com/success"
-                        /> -->
-                        <!-- Honeypot Spam Protection -->
-                        <!-- <input
-                            type="checkbox"
-                            name="botcheck"
-                            class="hidden"
-                            style="display: none"
-                        /> -->
                     </form>
                 </div>
             </div>
