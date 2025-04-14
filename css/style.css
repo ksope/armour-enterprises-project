@@ -493,10 +493,6 @@ a:focus {
     .carousel .carousel-text h1 {
         font-size: 35px;
     }
-    .carousel .carousel-text {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
 
     .carousel .carousel-text p {
         font-size: 16px;
@@ -529,11 +525,6 @@ a:focus {
 @media (max-width: 575.98px) {
     .carousel .carousel-text h1 {
         font-size: 25px;
-    }
-
-    .carousel .carousel-text {
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .carousel .carousel-text .btn {
